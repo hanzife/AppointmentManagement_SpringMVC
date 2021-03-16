@@ -1,3 +1,5 @@
+package test;
+
 import dao.daoUserImp;
 
 public class Testing {

@@ -48,9 +48,6 @@
                 id="password" type="password" name="txt_password" autofocus>
 
     </div>
-
-    <input type="checkbox" class="text-center">An admin? Sign up <a href="">Here!</a></input>
-
     <button class="bg-black hover:bg-brown-dark text-white font-bold py-3 px-6 rounded-xl w-full">Sign Up
     </button>
 

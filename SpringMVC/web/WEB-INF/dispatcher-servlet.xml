@@ -8,6 +8,10 @@
 
     <mvc:annotation-driven />
     <context:component-scan base-package="org.viv.controllers" />
+    <context:component-scan base-package="dao" />
+    <context:component-scan base-package="Service" />
+    <context:component-scan base-package="Models" />
+
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
     <property name="prefix">
