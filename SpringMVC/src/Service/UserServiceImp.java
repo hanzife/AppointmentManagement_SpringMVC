@@ -22,17 +22,16 @@ public class UserServiceImp implements UserService{
     }
 
     @Override
-    public int saveUser(String username, String email, String password, String role) throws ClassNotFoundException, SQLException {
-        return userDao.saveUser(username, email,password,role);
+    public int saveUser(String username, String email, String password, Boolean validated, String role) throws ClassNotFoundException, SQLException {
+        System.out.println( userDao.saveUser(username, email,password,validated, role));
+        return userDao.saveUser(username, email,password,validated, role);
     }
 
     @Override
     public void updateUser(int id, String email) throws ClassNotFoundException, SQLException {
-
     }
 
     @Override
     public void deleteUser(int IdUser) throws SQLException {
-
     }
 }

@@ -9,7 +9,7 @@ public interface DaoUser {
 
     public List<User> getAllUsers() throws ClassNotFoundException, SQLException;
 
-    public int saveUser(String username, String email, String password, String role) throws ClassNotFoundException, SQLException;
+    public int saveUser(String username, String email, String password, Boolean validated, String role) throws ClassNotFoundException, SQLException;
 
     public void updateUser(int id, String email) throws ClassNotFoundException, SQLException;
 

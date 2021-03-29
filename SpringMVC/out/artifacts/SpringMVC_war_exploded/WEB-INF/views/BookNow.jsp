@@ -21,7 +21,7 @@
 <header>
     <a>SBahia</a>
 </header>
-<!-- left section --><form class="shadow-xl p-10 bg-white max-w-xl rounded mx-auto mt-56">
+<!-- left section --><form class="shadow-xl p-10 bg-white max-w-xl rounded mx-auto mt-56" method="post" action="/index">
     <h1 class="text-4xl font-black mb-4">Votre Domend</h1>
 
     <div class=" ">
@@ -33,6 +33,7 @@
        -->
 
         <!-- Date -->
+        <input type="text" name="txt_date" autofocus>
         <select name="" class="border-2  w-full h-14 border-light-blue-500 border-opacity-25 rounded-2xl bg-gray-100 text-gray-800">
             <option value="">Select a day</option>
             <option value="">Monday</option>

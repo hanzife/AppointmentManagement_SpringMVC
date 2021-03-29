@@ -9,30 +9,40 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Repository
-public class daoUserImp implements DaoUser{
-    /** Save a User object in database */
-    public int saveUser(String username, String email, String password, String role) {
+public class daoUserImp implements DaoUser {
+    /**
+     * Save a User object in database
+     */
+    public int saveUser(String username, String email, String password, Boolean validated, String role) {
         User user = new User();
         user.setUsername(username);
         user.setEmail(email);
         user.setPassword(password);
+        user.setValidated(validated);
         user.setRole(role);
         Session session = HibernateUtil.openSession();
-        Transaction transaction = session.beginTransaction();;
-        session.save(user);
+        Transaction transaction = session.beginTransaction();
+        int xx = (int) session.save(user);
         transaction.commit();
-        return 1;
+
+        return xx;
     }
-    /** List of all persisted User objects from database */
+
+    /**
+     * List of all persisted User objects from database
+     */
     public List<User> getAllUsers() {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
         @SuppressWarnings("unchecked")
-        List<User> users = (List<User>) session.createQuery( "FROM User ORDER BY IdUser ASC").list();
+        List<User> users = (List<User>) session.createQuery("FROM User ORDER BY IdUser ASC").list();
         session.getTransaction().commit();
         return users;
     }
-    /** Update a specific User objec */
+
+    /**
+     * Update a specific User objec
+     */
     public void updateUser(int id, String email) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
@@ -42,12 +52,15 @@ public class daoUserImp implements DaoUser{
         session.update(user);
         session.getTransaction().commit();
     }
-    /** Delete a specific User object */
+
+    /**
+     * Delete a specific User object
+     */
     public void deleteUser(int id) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
 
-        User user  = (User) session.get(User.class, id);
+        User user = (User) session.get(User.class, id);
         session.delete(user);
         session.getTransaction().commit();
     }

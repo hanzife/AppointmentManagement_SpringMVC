@@ -27,6 +27,10 @@ public class User{
     @Column(name = "PASSWORD", nullable = false)
     private String password;
 
+    @Column(name = "VALIDATED", nullable = false)
+    private Boolean validated;
+
+
     @Column(name = "ROLE", nullable = false)
     private String role;
 
@@ -69,6 +73,14 @@ public class User{
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public Boolean getValidated() {
+        return validated;
+    }
+
+    public void setValidated(Boolean validated) {
+        this.validated = validated;
     }
 
     /* //hash password by Id
