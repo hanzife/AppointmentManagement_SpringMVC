@@ -1,5 +1,6 @@
 package test;
 
+import Models.User;
 import dao.daoUserImp;
 
 public class Testing {
@@ -8,6 +9,7 @@ public class Testing {
         //daoUserImp userImp = new daoUserImp();
         //int res = userImp.saveUser("Bill Gate", "billgates@gmail.com", "123123", "Student");
         //System.out.println(res);
+
     }
 }
 /*

@@ -14,4 +14,6 @@ public interface DaoUser {
     public void updateUser(int id, String email) throws ClassNotFoundException, SQLException;
 
     public void deleteUser(int IdUser) throws SQLException;
+
+    public User getUserByLogin(String email, String password);
 }

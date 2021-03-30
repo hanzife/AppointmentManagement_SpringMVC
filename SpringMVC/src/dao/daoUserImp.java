@@ -3,6 +3,7 @@ package dao;
 import Models.User;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 
 import java.sql.SQLException;
@@ -38,6 +39,19 @@ public class daoUserImp implements DaoUser {
         List<User> users = (List<User>) session.createQuery("FROM User ORDER BY IdUser ASC").list();
         session.getTransaction().commit();
         return users;
+    }
+
+    public User getUserByLogin(String email, String password) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.beginTransaction();
+        Query query = session.createQuery("FROM User Where email = :email and password = :password AND validated = 1");
+        query.setParameter("email", email);
+        query.setParameter("password", password);
+        List<User> users = (List<User>) query.list();
+        session.getTransaction().commit();
+        if(users.size()>0)
+            return users.get(0);
+        else return null;
     }
 
     /**
