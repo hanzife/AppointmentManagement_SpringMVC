@@ -26,7 +26,7 @@
                    class="mt-2 input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none bg-gray-100 active:outline-none active:border-indigo-600"
             name="txt_email">
             <label class="mt-2">Password</label>
-            <input type="text"
+            <input type="password"
                    class="mt-2 input border border-gray-400 appearance-none rounded w-full px-3 py-3 pt-5 pb-2 focus focus:border-indigo-600 focus:outline-none bg-gray-100 active:outline-none active:border-indigo-600"
                    name="txt_password">
 

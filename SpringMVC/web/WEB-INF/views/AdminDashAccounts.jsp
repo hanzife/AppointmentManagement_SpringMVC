@@ -108,7 +108,9 @@
             <h1 class="w-5/6 m-auto font-medium text-2xl mt-4">Pending Accounts</h1>
             <!-- Cards -->
             <c:forEach items="${requestScope.students}" var="student">
-                <form method="post" action="validatedaccount" class="w-5/6 m-auto bg-white rounded-xl mt-8 ">
+                <c:if test="${student.validated == '0'}">
+
+                    <form method="post" action="validatedaccount" class="w-5/6 m-auto bg-white rounded-xl mt-8 ">
                     <div class="flex relative ">
                         <div class="w-5/6 relative top-2 left-2">
                             <h1>
@@ -117,6 +119,7 @@
                             <h6>
                                 <c:out value="${student.email}" />
                             </h6>
+                            <input type="hidden" name="text_userID" value="${student.getIdUser()}">
                         </div>
                         <div class="absolute top-2 right-2">
                             <svg width=" 32" height="32" viewBox="0 0 32 32" fill="none"
@@ -136,6 +139,7 @@
                         </div>
                     </button>
                 </form>
+                </c:if>
             </c:forEach>
         </div>
     </body>

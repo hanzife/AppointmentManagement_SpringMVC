@@ -34,11 +34,10 @@ public class LoginController {
     public String BookingRequest(@RequestParam("txt_email") String email, @RequestParam("txt_password") String password, ModelMap model, HttpSession session) throws SQLException, ClassNotFoundException {
         //get user
         User user = iUserService.getUserByLogin(email, password);
-
         List<User> students = iUserService.getAllUsers();
-        for (User student : students) {
-        }
-
+        /*for (User student : students) {
+            System.out.println(student.getIdUser());
+        }*/
         int idUser = user.getIdUser();
         session.setAttribute("userID", idUser);
         if (user.getRole().equals("Admin")) {

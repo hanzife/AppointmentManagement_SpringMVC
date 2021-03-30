@@ -7,34 +7,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422ef88c-9186-4c75-9aa7-3b289401ca1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/J2EE_1_4_J2EE_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/viv/controllers/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prototype/Admin/AdminDashPending.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype/Admin/AdminDashPending.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_servlet_api_3_0_alpha_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoReservation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoReservationImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoReservationImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoUserImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoUserImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/RegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/test/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/test/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/AdminDashAccounts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/AdminDashAccounts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/META-INF/SpringMVC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Models/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Models/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoReservation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoReservationImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoReservationImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoUserImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoUserImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/RegisterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/test/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/test/Testing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/DaoUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DaoUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/daoUserImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/daoUserImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/viv/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/viv/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/viv/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/viv/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/AdminDashAccounts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/AdminDashAccounts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/signup.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +219,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -214,7 +230,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -225,7 +241,7 @@
       <recent name="$PROJECT_DIR$/web/WEB-INF/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Unknown.Tomcat2091263566">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -242,6 +258,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,6 +300,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringMVC_2" />
+        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -298,6 +326,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -351,6 +394,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50558" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -382,6 +473,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Testing" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Tomcat Server.signup.jsp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Testing" />
@@ -414,6 +510,10 @@
       <workItem from="1617011958133" duration="120000" />
       <workItem from="1617012245030" duration="14230000" />
       <workItem from="1617092994381" duration="234000" />
+      <workItem from="1617098347881" duration="1059000" />
+      <workItem from="1617099726997" duration="18000" />
+      <workItem from="1617099769674" duration="316000" />
+      <workItem from="1617100108937" duration="4074000" />
     </task>
     <servers />
   </component>
@@ -461,7 +561,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mysql/jdbc/Driver.java" />

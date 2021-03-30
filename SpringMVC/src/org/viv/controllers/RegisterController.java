@@ -25,8 +25,8 @@ public class RegisterController {
     }
 
     //After SignUp Button retrieve new user data & Redirect to the next step (BookNow)
-    @RequestMapping(value = "/BookNow", method = RequestMethod.POST)
-    public String BookingRequest(@RequestParam("txt_username") String username, @RequestParam("txt_email") String email, @RequestParam("txt_password") String password, HttpSession session) {
+    @RequestMapping(value = "/waitinglist", method = RequestMethod.POST)
+    public String WaitingList(@RequestParam("txt_username") String username, @RequestParam("txt_email") String email, @RequestParam("txt_password") String password, HttpSession session) {
         try {
             //Insert new user
             User user = addUser(username, email, password);
@@ -37,7 +37,7 @@ public class RegisterController {
             Ex.printStackTrace();
         }
         //Next step (BookNow)
-        return "BookNow";
+        return "waitinglist";
     }
 
     public User addUser(String username, String email, String password) {

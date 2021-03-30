@@ -57,12 +57,12 @@ public class daoUserImp implements DaoUser {
     /**
      * Update a specific User objec
      */
-    public void updateUser(int id, String email) {
+    public void updateUser(int id) {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
 
         User user = (User) session.get(User.class, id);
-        user.setEmail(email);
+        user.setValidated(true);
         session.update(user);
         session.getTransaction().commit();
     }
@@ -78,6 +78,8 @@ public class daoUserImp implements DaoUser {
         session.delete(user);
         session.getTransaction().commit();
     }
+
+
 }
 
 

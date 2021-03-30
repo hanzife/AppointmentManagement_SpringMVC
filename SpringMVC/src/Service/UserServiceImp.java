@@ -27,7 +27,8 @@ public class UserServiceImp implements UserService{
     }
 
     @Override
-    public void updateUser(int id, String email) throws ClassNotFoundException, SQLException {
+    public void updateUser(int id) throws ClassNotFoundException, SQLException {
+        userDao.updateUser(id);
     }
 
     @Override
@@ -39,4 +40,7 @@ public class UserServiceImp implements UserService{
         return  userDao.getUserByLogin(email, password);
 
     }
+
+
+
 }

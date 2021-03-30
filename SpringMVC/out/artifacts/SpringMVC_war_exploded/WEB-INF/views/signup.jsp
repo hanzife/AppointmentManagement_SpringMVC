@@ -21,7 +21,7 @@
                 </div>
             </div>
         </header>
-        <form action="/BookNow" method="post" class=" p-10 bg-white max-w-xl rounded  mt-20">
+        <form action="/waitinglist" method="post" class=" p-10 bg-white max-w-xl rounded  mt-20">
             <h1 class="text-3xl font-black mb-4">Hello!</h1>
             Request a class session by completing a few steps!
             <div class="mb-4 mt-6 relative">
