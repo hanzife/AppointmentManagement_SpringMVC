@@ -67,6 +67,9 @@ public class LoginController {
             //Insert new Booking
             User user = (User)session.getAttribute("user");
             iReservationService.saveReservation(user, date, false);
+
+            System.out.println(user.getReservations().get(0).getDateReservation());
+
         } catch (Exception Ex) {
             Ex.printStackTrace();
         }

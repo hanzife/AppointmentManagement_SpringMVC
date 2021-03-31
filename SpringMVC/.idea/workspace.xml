@@ -7,45 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422ef88c-9186-4c75-9aa7-3b289401ca1d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prototype/MakeAppointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Prototype/MakeAppointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Service/ReservationServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/DaoReservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/HibernateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoReservationImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/dao/daoReservationImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/Models/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/classes/org/viv/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/BookNow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/BookNow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/views/signup.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Models/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Models/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Service/ReservationServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/DaoReservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/HibernateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoReservationImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoReservationImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoUserImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/dao/daoUserImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/org/viv/controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpringMVC/test/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpringMVC/test/Testing.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Reservation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ReservationServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ReservationServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/DaoReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DaoReservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/daoReservationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/daoReservationImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/viv/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/viv/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/viv/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/viv/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/daoUserImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/daoUserImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/viv/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/viv/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/AdminDashAccounts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/AdminDashAccounts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/BookNow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/BookNow.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/waitinglist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/waitinglist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +190,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -222,24 +200,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dao" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Brief14\SpringMVC\src\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Brief14\SpringMVC\src\test" />
+      <recent name="C:\Users\admin\Desktop\Brief14\SpringMVC\web\WEB-INF" />
+      <recent name="C:\Users\admin\Desktop\Brief14\SpringMVC\web" />
       <recent name="C:\Users\admin\Desktop\JEE Web Apps\Springy\SpringMVC\web\WEB-INF\views" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Application.Testing">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -260,15 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -514,7 +496,8 @@
       <workItem from="1617099726997" duration="18000" />
       <workItem from="1617099769674" duration="316000" />
       <workItem from="1617100108937" duration="10855000" />
-      <workItem from="1617179838412" duration="8470000" />
+      <workItem from="1617179838412" duration="11061000" />
+      <workItem from="1617205601937" duration="1157000" />
     </task>
     <servers />
   </component>
@@ -563,6 +546,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

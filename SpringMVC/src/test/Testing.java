@@ -1,32 +1,23 @@
 package test;
 
 import Models.User;
+import dao.DaoReservation;
+import dao.DaoUser;
 import dao.daoUserImp;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class Testing {
-    public static void main(String[] args) {
-        //Insert User using Dao
-        //daoUserImp userImp = new daoUserImp();
-        //int res = userImp.saveUser("Bill Gate", "billgates@gmail.com", "123123", "Student");
-        //System.out.println(res);
-
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        ApplicationContext appContext  = new ClassPathXmlApplicationContext("test/dispatcher-servlet.xml");
+        DaoUser bean = (daoUserImp) appContext.getBean("DaoUserImp");
+        ArrayList<User> list = (ArrayList<User>) bean.getAllUsers();
+        for(User u :list) {
+            System.out.println(u.toString());
+        }
     }
 }
-/*
- * Update an object
- */
-//.updateStudent(id3, "Tim Cook");
-
-/*
- * Deletes an object
- */
-//application.deleteStudent(id2);
-
-/*
- * Retrieve all saved objects
- */
-//List<Student> remaingStudents = application.getAllStudents();
-//System.out.println("\n*******List of all remained persisted students*******");
-//for (Student student : remaingStudents) {
-//   System.out.println(student);
-//}

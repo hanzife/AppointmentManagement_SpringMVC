@@ -1,14 +1,12 @@
 package Models;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import java.util.List;
+import javax.persistence.*;
 
-
+@Component
 @Entity
 @Table(name = "USER")
 public class User{
@@ -36,6 +34,16 @@ public class User{
     @Column(name = "ROLE", nullable = false)
     private String role;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    List<Reservation> reservations;
+
+    public List<Reservation> getReservations() {
+        return reservations;
+    }
+
+    public void setReservations(List<Reservation> reservations) {
+        this.reservations = reservations;
+    }
 
     public int getIdUser() {
         return IdUser;

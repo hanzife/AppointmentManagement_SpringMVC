@@ -12,7 +12,9 @@ public class Reservation {
     private int IdReservation;
 
     @ManyToOne
+    @JoinColumn(name = "IdUser")
     private User user;
+
 
     @Column(name = "DATARESERVATION", nullable = false)
     private String DateReservation;

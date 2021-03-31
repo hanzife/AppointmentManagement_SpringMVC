@@ -32,7 +32,6 @@
 
     <div class="w-full h-5/6  pt-48 bg-gray-200">
         <!-- Message Welcome -->
-
         <div class="w-4/6 flex bg-white mx-auto">
             <div class=" w-5/6 mt-16 space-x-12 flex m-auto">
                 <div class="">

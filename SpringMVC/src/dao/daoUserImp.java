@@ -4,12 +4,14 @@ import Models.User;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.sql.SQLException;
 import java.util.List;
 
 @Repository
+@Component(value = "DaoUserImp")
 public class daoUserImp implements DaoUser {
     /**
      * Save a User object in database
