@@ -14,8 +14,43 @@
     <body class="flex">
 
         <!-- Side Menu -->
-        <div class="w-16 h-screen border-r-2 border-gray-700">
+        <div class="w-16 h-screen border-r-2 border-gray-700 flex flex-col items-center justify-between py-8">
+            <!-- Top Icon -->
+            <div class="font-bold text-2xl ">
+                YC
+            </div>
+            <!-- Middle Nav -->
+            <div class="font-bold text-2xl w-full space-y-6">
+
+                <div class="h-16 w-full flex justify-between items-center">
+                    <div class="h-full w-1 bg-white"></div>
+                    <a class="" href="/AdminDash"> <svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 26C5.038 26 0 23.3545 0 20.2228V5.7772C0 2.6455 5.038 0 11 0C16.962 0 22 2.6455 22 5.7772V20.2228C22 23.3545 16.9634 26 11 26ZM2.75 16.77V20.2267C2.84625 20.9456 5.92488 23.1153 11 23.1153C16.0751 23.1153 19.1551 20.9391 19.25 20.2189V16.77C16.7467 18.142 13.8929 18.8377 11 18.7811C8.10709 18.8377 5.2533 18.1421 2.75 16.77ZM2.75 9.5433V13C2.84625 13.7189 5.92488 15.8886 11 15.8886C16.0751 15.8886 19.1551 13.7124 19.25 12.9922V9.5433C16.7468 10.9158 13.893 11.6119 11 11.5557C8.10695 11.612 5.25313 10.9159 2.75 9.5433ZM11 2.8886C5.9235 2.8886 2.84487 5.0648 2.75 5.7863C2.84625 6.5 5.92763 8.6658 11 8.6658C16.0724 8.6658 19.1551 6.4896 19.25 5.7694C19.1538 5.0531 16.0724 2.8886 11 2.8886Z" fill="#0F111A"></path>
+                    </svg></a>
+                    <div class="h-full w-1 bg-black rounded-tl-lg rounded-bl-lg"></div>
+                </div>
+
+                <div class="h-16 w-full flex justify-between items-center">
+                    <div class="h-full w-1 bg-white"></div>
+                    <a class="" href="/reservations"> <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.3333 26H2.66667C1.19391 26 0 24.8359 0 23.4V5.2C0 3.76406 1.19391 2.6 2.66667 2.6H5.33333V0H8V2.6H16V0H18.6667V2.6H21.3333C22.8061 2.6 24 3.76406 24 5.2V23.4C24 24.8359 22.8061 26 21.3333 26ZM2.66667 10.4V23.4H21.3333V10.4H2.66667ZM2.66667 5.2V7.8H21.3333V5.2H2.66667Z" fill="#0F111A"></path>
+                    </svg></a>
+                    <div class="h-full w-1 rounded-tl-lg rounded-bl-lg"></div>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- Logout -->
+            <div class="font-bold text-2xl">
+                <a href="/logout"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 16H2C0.89543 16 0 15.1046 0 14V3C0 1.89543 0.89543 1 2 1H6V3H2V14H13V10H15V14C15 15.1046 14.1046 16 13 16ZM7.7 9.707L6.29 8.293L12.583 2H9V0H16V7H14V3.415L7.7 9.707Z" fill="#2E3A59"></path>
+                </svg></a>
+            </div>
         </div>
+
 
         <!-- Center -->
         <div class="w-4/5 h-screen bg-red">
@@ -32,7 +67,7 @@
                                         <th class="py-3 px-6 text-left">Username</th>
                                         <th class="py-3 px-6 text-left">Email</th>
                                         <th class="py-3 px-6 text-center">Status</th>
-                                        <th class="py-3 px-6 text-center">Action</th>
+                                        <!-- <th class="py-3 px-6 text-center">Action</th>-->
                                     </tr>
                                 </thead>
 
@@ -77,6 +112,7 @@
 
 
                                                 </td>
+                                                <!--
                                                 <td class="py-3 px-6 text-center">
                                                     <div class="flex item-center justify-center">
 
@@ -91,6 +127,7 @@
                                                         </div>
                                                     </div>
                                                 </td>
+                                                -->
                                             </tr>
                                         </c:if>
                                     </c:forEach>

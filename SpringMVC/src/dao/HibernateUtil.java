@@ -1,5 +1,6 @@
 package dao;
 
+import Models.Reservation;
 import Models.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,6 +9,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 public class HibernateUtil {
+    //The Connection to database
     private static SessionFactory factory;
 
     private HibernateUtil() {
@@ -32,7 +34,9 @@ public class HibernateUtil {
     //
     private static Configuration setupClasses(Configuration config) {
         //Classes here
+        //Each Class to be Autowired in controller
         config.addAnnotatedClass(User.class);
+        config.addAnnotatedClass(Reservation.class);
         //
         return config;
     }

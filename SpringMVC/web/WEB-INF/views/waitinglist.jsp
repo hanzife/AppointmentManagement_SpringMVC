@@ -20,6 +20,12 @@
             <button class=" bg-indigo-700 text-white w-32 h-8">SignUp</button>
 
         </div>
+        <a href="/logout">
+            <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.01 7.425L12.02 1.415L10.607 0L6.01 4.6L1.414 0L0 1.414L6.01 7.425Z" fill="#374151"/>
+            </svg>
+        </a>
+
     </header>
 
     <div class="w-full h-5/6  pt-48 bg-gray-200">

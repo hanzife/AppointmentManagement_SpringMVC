@@ -3,6 +3,8 @@ package Models;
 import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "RESERVATION")
 public class Reservation {
     private static final long serialVersionUID = 6832006422622219737L;
     @Id

@@ -19,8 +19,11 @@ import java.util.List;
 @RequestMapping
 public class LoginController {
 
+
+
     @Autowired
     UserService iUserService;
+    @Autowired
     ReservationService iReservationService;
 
     //User user = new User();
@@ -31,7 +34,7 @@ public class LoginController {
 
     //Whats User Logged in
     @RequestMapping(value = "/Home", method = RequestMethod.POST)
-    public String BookingRequest(@RequestParam("txt_email") String email, @RequestParam("txt_password") String password, ModelMap model, HttpSession session) throws SQLException, ClassNotFoundException {
+    public String UserType(@RequestParam("txt_email") String email, @RequestParam("txt_password") String password, ModelMap model, HttpSession session) throws SQLException, ClassNotFoundException {
         //get user
         User user = iUserService.getUserByLogin(email, password);
         List<User> students = iUserService.getAllUsers();
@@ -39,7 +42,7 @@ public class LoginController {
             System.out.println(student.getIdUser());
         }*/
         int idUser = user.getIdUser();
-        session.setAttribute("userID", idUser);
+        session.setAttribute("user", user);
         if (user.getRole().equals("Admin")) {
             model.addAttribute("students", students);
             return "AdminDashAccounts";
@@ -47,5 +50,43 @@ public class LoginController {
             return "BookNow";
         }
     }
+
+    @RequestMapping(value = "/AdminDash")
+    public String AdminDash(ModelMap model) throws SQLException, ClassNotFoundException {
+
+        List<User> students = iUserService.getAllUsers();
+            model.addAttribute("students", students);
+            return "AdminDashAccounts";
+    }
+
+
+
+    @RequestMapping(value = "/appointment", method = RequestMethod.POST)
+    public String BookingRequest(@RequestParam("date") String date, HttpSession session) throws SQLException, ClassNotFoundException {
+        try {
+            //Insert new Booking
+            User user = (User)session.getAttribute("user");
+            iReservationService.saveReservation(user, date, false);
+        } catch (Exception Ex) {
+            Ex.printStackTrace();
+        }
+        return "waitingappointment";
+    }
+
+    @RequestMapping(value = "/logout")
+    public String BookingRequest(HttpSession session) throws SQLException, ClassNotFoundException {
+        try {
+            //Insert new Booking
+            session.removeAttribute("user");
+        } catch (Exception Ex) {
+            Ex.printStackTrace();
+        }
+        return "login";
+    }
+
+
+
+
+
 
 }

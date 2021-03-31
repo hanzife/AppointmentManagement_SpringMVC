@@ -13,6 +13,8 @@ import javax.persistence.Id;
 @Table(name = "USER")
 public class User{
 
+    //the serialVersionUID attribute to remember versions of a Serializable class to verify that a loaded class and the serialized object are compatible.
+    //Don't have to be unique
     private static final long serialVersionUID = 6832006422622219737L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
